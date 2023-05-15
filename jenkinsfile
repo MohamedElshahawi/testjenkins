@@ -6,17 +6,18 @@ pipeline {
             steps {
                 echo 'its our SCM Checkout'
             }
+        }
         stage('Build') {
             steps {
                 echo 'its our build'
             }
         }
-                stage('Test') {
+        stage('Test') {
             steps {
                 echo 'its our test'
             }
         }
-                stage('Deploy') {
+        stage('Deploy') {
             steps {
                 echo 'its our Deploy'
             }
